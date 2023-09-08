@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!-- Infomações de config da pagina-->
+
+<head>
+  <meta name="keywords" content="Portifolio, login, metatag, html" />
+  <meta http-equiv="content-language" content="pt-br" />
+  <meta name="author" content="Talilo" />
+  <meta name="description" content="Esta é a pagina do Portifolio">
+  <meta name="robots" content="noindex" />
+  <meta name="robots" content="nofollow" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Portifolio Alura One</title>
+  <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/response.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/animation.css" media="screen" />
+</head>
+<!-- Infomações de corpo da pagina-->
+
+<body>
+  <!--menu de navegação-->
+  <header>
+    <div class="container menu_inicio">
+      <div class="logo">
+        <img
+          src="https://raw.githubusercontent.com/alura-challenges/challenge-one-portfolio-br/master/assets/vector.png" />
+        <h2>Talilo Tarlison</h2>
+      </div>
+      <section class="menu-section">
+        <div class="container-menu">
+          <input type="checkbox" id="checkbox-menu" />
+          <label class="menu-button-container" for="checkbox-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+
+          <nav>
+            <ul class="menu" target="rotas-pages">
+              <li>
+                <a href="./assets/pages/sobre_mim.html" target="rotas-pages">Sobre mim </a>
+              </li>
+              <li>
+                <a href="./assets/pages/skills.html" target="rotas-pages">Skills</a>
+              </li>
+              <li>
+                <a href="./assets/pages/projetos.html" target="rotas-pages">Projetos</a>
+              </li>
+              <li>
+                <a href="./assets/pages/formacao.html" target="rotas-pages">Formação </a>
+              </li>
+              <li>
+                <a href="./assets/pages/hobbies.html" target="rotas-pages">Hobbies</a>
+              </li>
+              <li>
+                <a href="./assets/pages/contato.html" class="email" target="rotas-pages">
+                  email@gmail.com
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </div>
+  </header>
+
+  
+  <!-- Conteudo principal do site--->
+  
+  <!--Rotas da paginas separadas que vai abrir no iframe-->
+  <iframe src="./assets/pages/sobre_mim.html "name="rotas-pages"></iframe>
+
+  
+  <!--Footer--->
+
+  <footer class="rodape">
+    <p>Oracle ONE na Alura.</p>
+    <p>Desenvolvido por Talilo Tarlison em &copy; 2022</p>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+
+</html>

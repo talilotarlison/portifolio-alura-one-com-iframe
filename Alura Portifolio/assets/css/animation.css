@@ -1,0 +1,49 @@
+/* Animaçao do texto principal*/
+
+.container-animation {
+  display: inline-block;
+}
+
+.typed-out {
+  overflow: hidden;
+  border-right: 0.2em solid black;
+  border-radius: 2px;
+  white-space: nowrap;
+  animation: typing 2s steps(20, end) forwards, blinking 1.2s infinite;
+  font-size: 1.6rem;
+  width: 0;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blinking {
+  from {
+    border-color: transparent;
+  }
+
+  to {
+    border-color: black;
+  }
+}
+
+/*Animação das box*/
+
+@keyframes box-animacao {
+  from {
+    margin-left: 300%;
+    width: 0%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 70%;
+  }
+}
